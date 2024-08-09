@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+  <!-- Google Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
   <!-- Navbar -->
   <header>
     <div class="nav">
@@ -26,11 +30,14 @@
       <div id="homeUI">
         <!-- Notification --><div class=".notify"><h5 id="notify">Add Someone!</h5></div>
         <div id="top">
-          <input type="text" placeholder="Enter the Name">
+          <input type="text" id="people" placeholder="Enter the Name">
         </div>
         <div id="bottom">
-          <button>Add</button>
-          <button>Find Who</button>
+          <button id="add">Add</button>
+          <button id="find">Find Who</button>
+          <a href=""><button id="ref"><span class="material-symbols-outlined">
+            refresh
+            </span></button></a>
         </div>
       </div>
     </div>
@@ -43,5 +50,7 @@
     </div>
   </footer>
 
+  <!-- Linking Javascript -->
+  <script src="script.js"></script>
 </body>
 </html>

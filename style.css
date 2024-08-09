@@ -49,12 +49,12 @@ a{
 #homeSC {
   display: flex;
   justify-content: center;
-  padding: 70px;
+  padding: 30px
 }
 /* Scarch Card */
 
 .container {
-  width: 250px;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -116,15 +116,38 @@ a{
   outline: none;
   font-family: oddVal;
 }
-#bottom button {
+#ref{
+  margin-top: 30px;
+  padding: 8px;
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 500px;
+  font-family: oddVal;
+  font-size: medium;
+  background-color: black;
+  border: solid white;
+  color: white;
+}
+#add {
   margin-top: 20px;
   height: 40px;
   width: 100%;
   border: none;
   border-radius: 5px;
   font-family: oddVal;
-  font-size: me;
+  font-size: medium;
 }
+#find {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-family: oddVal;
+  font-size: medium;
+}
+
 
 /* Footer */
 .foot {
@@ -187,7 +210,16 @@ a{
     outline: none;
     font-family: oddVal;
   }
-  #bottom button {
+  #add {
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-family: oddVal;
+    font-size: me;
+  }
+  #find {
     margin-top: 20px;
     height: 40px;
     width: 100%;
