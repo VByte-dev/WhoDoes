@@ -248,8 +248,5 @@ a::selection, h1::selection, h2::selection,h4::selection, h3::selection, h5::sel
 }
 
 #navIcon:hover{
-  transform: translateY(-5px);
-}
-#navIcon:not(.hover){
-  transform: translateY(5px);
+  transform: translateY(-2px);
 }
