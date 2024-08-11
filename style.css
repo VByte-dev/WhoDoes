@@ -35,6 +35,9 @@ a{
   padding: 20px 100px;
   border-radius: 10px;
 }
+#navIcon{
+  transition: 0.2s linear;
+}
 
 /* Home */
 .home {
@@ -148,7 +151,6 @@ a{
   font-size: medium;
 }
 
-
 /* Footer */
 .foot {
   margin-top: 100px;
@@ -231,3 +233,20 @@ a{
 }
 
 /* Animattions & Others */
+#find:active,  #add:active{
+  background-color: rgba(58, 44, 44, 0);
+  border-style: dashed;
+  color: white;
+}
+#ref:active{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+a::selection, h1::selection, h2::selection,h4::selection, h3::selection, h5::selection, button::selection, input::selection, span::selection{
+  background-color: #12121200;
+}
+
+#navIcon:hover{
+  transform: translateY(-5px);
+}
