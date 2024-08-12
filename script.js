@@ -21,7 +21,7 @@ document.querySelector('#find').addEventListener('click', ()=>{
   console.log(randNo);
   let card = document.querySelector(".container");
   card.style.background = 'none';
-  card.style.borderStyle = 'dotted';
+  card.style.borderStyle = 'dashed';
   card.style.color = 'black';
   console.log(typeof pArr, pArr);
   if(pArr.length === 0){
