@@ -23,7 +23,6 @@ document.querySelector('#find').addEventListener('click', ()=>{
   card.style.background = 'none';
   card.style.borderStyle = 'dashed';
   card.style.color = 'black';
-  card.style.border = '2px solid black';
   console.log(typeof pArr, pArr);
   if(pArr.length === 0){
     document.querySelector('#whodoes').innerText = `Enter a Name`;
